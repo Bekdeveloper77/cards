@@ -1,0 +1,145 @@
+
+[
+    {
+        "id": 1,
+        "title": "Home",
+        "path": "./"
+    },
+    
+    {
+        "id": 2,
+        "title": "Doktorantura",
+        "path": "#",
+        "subnav": [
+            {
+                "id": 1,
+                "name": "Umumiy",
+                "path": "./general"
+            },
+            {
+                "id": 1,
+                "name": "Matem",
+                "path": "./matem"
+            },
+            {
+                "id": 1,
+                "name": "Tarix",
+                "path": "./history"
+            },
+            {
+                "id": 1,
+                "name": "Kimyo",
+                "path": "./kimyo"
+            },
+            {
+                "id": 1,
+                "name": "Biologiya",
+                "path": "./biologiya"
+            }
+        ],
+        "icon": "BiChevronDown" 
+        
+    },
+    {
+        "id": 3,
+        "title": "ilmiy Tadqiqot",
+        "path": "#",
+        "subnav": [
+            {    
+                "id": 2,
+                "name": "Ilmiy Loyihalar",
+                "path": "./ilmiy_l"
+            },
+            {    
+                "id": 2,
+                "name": "Ilmiy Anjumanlar",
+                "path": "./ilmiy_a"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Tijorat",
+        "path": "#",
+        "subnav": [
+            {    
+                "id": 3,
+                "name": "Ilmiy Patentlar",
+                "path": "./ilmiy_pat"
+            },
+            {    
+                "id": 3,
+                "name": "Guvohnomalar",
+                "path": "./guvohnoma"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "O'qituvchilar",
+        "path": "#",
+        "subnav": [
+            {
+                "id": 4,
+                "name": "Matematika",
+                "path": "./metemath"
+            },
+            {
+                "id": 4,
+                "name": "Fizika",
+                "path": "./fizika"
+            },
+            {
+                "id": 4,
+                "name": "Tarix",
+                "path": "./tarix"
+            },
+            {
+                "id": 4,
+                "name": "Kimyo",
+                "path": "./kimyo"
+            },
+            {
+                "id": 4,
+                "name": "Biologiya",
+                "path": "./biologiya"
+            }
+        ]
+    },  {
+        "id": 6,
+        "title": "Ilmiy Kengash",
+        "path": "#",
+        "subnav": [
+            {
+                "id": 4,
+                "name": "Fizika-matematika",
+                "path": "./fizika_m"
+            },
+            {
+                "id": 4,
+                "name": "Kimyo bo'yicha",
+                "path": "./kimyo_b"
+            },
+            {
+                "id": 4,
+                "name": "Tarix bo'yicha",
+                "path": "./tarix_b"
+            },
+            {
+                "id": 4,
+                "name": "Iqtisod bo'yicha",
+                "path": "./iqtisod_b"
+            },
+            {
+                "id": 4,
+                "name": "Biologiya bo'yicha",
+                "path": "./biologiya_b"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Biz haqimizda",
+        "path": "./about"
+    }
+]

@@ -1,0 +1,41 @@
+
+.text-kengash{
+    border-radius: 20px;
+    box-shadow: 10px 10px #fff,  20px  #00000085;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.note_band {
+    padding: 15px;
+    background-color: rgb(35, 48, 48);
+}
+
+.text-k{
+    margin: 5px;
+}
+
+/* .circle{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0 60px #fff,  0 120px #fff, 0 180px #fff, 0 240px #fff, 
+    0 300px #fff, 0 360px #fff, 0 420px #fff;
+    padding-top: .1px;
+}
+
+.rule{
+   width: 35px;
+   height: 8px;
+   background-color: #000;
+   border-radius: 3px;
+   margin-top: 4px;
+   margin-left: -25px;
+   box-shadow:0 60px #000,  0 120px #000, 0 180px #000, 0 240px #000, 
+   0 300px #000, 0 360px #000, 0 420px #000;
+} */

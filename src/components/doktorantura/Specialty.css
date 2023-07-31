@@ -1,0 +1,25 @@
+/* .liquid_shape {
+  background: linear-gradient(45deg, #67f7ce 0%, #545fc9 100%);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 20px #000;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  animation: liquid 8s ease-in-out infinite;
+}
+@keyframes liquid {
+  0% {
+     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+     background-size: 100% 100%;
+
+  }
+  50% {
+      border-radius: 30% 30% 70% 40% / 50% 60% 30% 60%;
+      background-size: 300% 150%;
+ 
+   }
+   100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+      background-size: 100% 100%;
+ 
+   }
+} */

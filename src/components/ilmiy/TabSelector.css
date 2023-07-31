@@ -1,0 +1,47 @@
+/* .sc-cPiKLX.eLXXrd {
+    width: 100%;
+    padding-top: 50px;
+}
+.sc-dAlyuH.CSMRt {
+    padding-top: 50px;
+    width: 100% !important;
+}
+.sc-dcJsrY.bGggZB {
+    padding-top: 50px;
+}
+.sc-fqkvVR.hNBQTc{
+    width: 50%;
+}
+.sc-fqkvVR.dsNkNE{
+    width: 50%;
+} */
+
+.nav-pills {
+    padding-top: 50px;
+    --bs-nav-pills-link-active-bg: #e2e5e7;
+    --bs-nav-pills-link-active-color: #020202;  
+}
+#pills-home-tab {
+    border-bottom: 1px solid darkgray;
+}
+#pills-profile-tab {
+    border-bottom: 1px solid darkgray;
+}
+.nomi {
+    max-width: 100px;
+}
+.table>thead {
+    vertical-align: bottom;
+    text-align: center;
+    background: blue;
+}
+.table>thead tr th{
+    border: none;
+    color: white;
+    background: blue;
+}
+
+
+.table>tbody {
+    text-align: center;
+}
