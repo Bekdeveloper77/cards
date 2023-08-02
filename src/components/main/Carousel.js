@@ -13,7 +13,7 @@ const CarouselBase = () => {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h4 style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
+              <h4 className='hash' style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -25,7 +25,7 @@ const CarouselBase = () => {
             />
     
             <Carousel.Caption>
-            <h4 style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
+            <h4 className='hash' style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -37,7 +37,7 @@ const CarouselBase = () => {
             />
     
             <Carousel.Caption>
-            <h4 style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
+            <h4 className='hash' style={{textTransform: 'uppercase', fontSize: '50px', fontWeight: '800'}}>O'zbekiston Milliy  <br /> Universiteti</h4>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>

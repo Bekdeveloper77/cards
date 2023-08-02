@@ -3,6 +3,8 @@
     width: 100%;
     height: 85vh;
 }
+
+
 .carousel-caption {
     transform: translate(-30%, -140%);
     z-index: 2;
@@ -13,6 +15,32 @@
     font-weight: 800;
     font-size: 40px;
 }
+@media screen and (max-width: 768px) {
+
+    .carousel-caption .hash{
+        transform: translate(20%, -100%);
+        font-size: 25px !important;
+           
+    }
+    .carousel-caption p{
+        transform: translate(20%, -100%);
+        font-size: 15px !important;
+           
+    }
+  }
+  @media screen and (max-width: 300px) {
+
+    .carousel-caption .hash{
+        transform: translate(30%, -50%);
+        font-size: 25px !important;
+           
+    }
+    .carousel-caption p{
+        transform: translate(30%, -50%);
+        font-size: 15px !important;
+           
+    }
+  }
 
 .carousel-item:after {
     content:"";

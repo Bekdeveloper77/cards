@@ -17,7 +17,7 @@ const Cards = () => {
         <div className='container'>
             
                 <div className='row'>
-                <h1 className='title_uz' style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem'}}>____________UZMU ilmiy ishlar bo'limi ____________</h1>
+                <h1 className='title_uz' style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem', textTransform: 'uppercase'}}>__________ UZMU ilmiy ishlar bo'limi __________</h1>
                     <div className='col-md-4'>
                         <Card style={{ width: '100%' }}>
                             <FaUserGraduate variant="top" style={{ textAlign: 'center', fontSize: '100px', width: '100%', padding: '6px' }} />
@@ -79,8 +79,8 @@ const Cards2 = () => {
                 
                  <div className="row colls">
                     
-        <h1 style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem'}}>____________Bizning Faoliyatimiz ____________</h1>
-        <div className="col-md-4">
+        <h1 className='title_uz' style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem', textTransform: 'uppercase'}}>__________ Bizning Faoliyatimiz __________</h1>
+        <div className="col-md-4"> 
             <div className='loyiha'>
                         <div className='we'>
                         <h1>Bizning jamoa haqida?</h1>

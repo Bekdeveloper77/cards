@@ -205,6 +205,14 @@ li > a:only-child:after { content: ''; }
 		text-decoration:none;
 		border:none;
 	}
+	@media screen and (max-width: 320px) {
+		.toggle {
+			margin-top: -30px !important;
+		}
+		#logo img{
+			margin: 0;
+		}
+	}
 
 	.toggle:hover {
 		background-color: #2aaac1;

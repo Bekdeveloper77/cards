@@ -4,7 +4,7 @@ import "./Partner.css";
 const Partners = () => {
   return (
 	<>
-	<h1 style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem'}}>____________ Bizning Hamkorlarimiz ____________</h1>
+	<h1 className='title_uz' style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem', textTransform: 'uppercase'}}>__________ Bizning Hamkorlarimiz __________</h1>
 	<div style={{height: '20vh'}}>
         <div class="slider">		
 	<div class="slide-track">

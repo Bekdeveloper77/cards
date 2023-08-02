@@ -34,28 +34,28 @@ counters.forEach(counter => {
 	updateCount();
 });
 
-const styles = {
-    count: {
+// const styles = {
+//     count: {
 		
-      height: '30vh',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover'
-    },
+//       height: '30vh',
+//       backgroundPosition: 'center',
+//       backgroundRepeat: 'no-repeat',
+//       backgroundSize: 'cover'
+//     },
   
-    counters: {
-      height: '100%',
-      width: '100%',
-      backgroundColor: 'rgba(20, 20, 20, 0.8)',
-    }
-  }
+//     counters: {
+//       height: '100%',
+//       width: '100%',
+//       backgroundColor: 'rgba(20, 20, 20, 0.8)',
+//     }
+//   }
 
 const Statistic = () => {
 
   return (
    <div>
     <div className='statistic-title'> 
-        <h1 style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem'}}>________________STATISTIKA_______________</h1>
+        <h1 className='title_uz' style={{margin: '25px', color: '#048BFB', fontSize: '1.5rem'}}>________________STATISTIKA_______________</h1>
     </div>
     <div className='count' >
 

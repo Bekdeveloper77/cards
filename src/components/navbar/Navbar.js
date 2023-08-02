@@ -22,16 +22,7 @@ const Navbar = () => {
     };
   }, []);
 
-  var [date,setDate] = useState(new Date());
-    
-    useEffect(() => {
-        var timer = setInterval(()=>setDate(new Date()), 1000 )
-        return function cleanup() {
-            clearInterval(timer)
-        }
-    
-    });
-
+  
   
   return (
     <>
@@ -70,7 +61,7 @@ const Navbar = () => {
         </div>
        
     </nav>
-    <div className='clock' > {date.toLocaleTimeString()} </div>
+   
  </div>
 
     </>
