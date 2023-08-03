@@ -29,7 +29,8 @@ const Cards = () => {
                                
                             </Card.Body>
                         </Card>
-                    </div> <div className='col-md-4'>
+                    </div> 
+                    <div className='col-md-4'>
                         <Card style={{ width: '100%' }}>
                             <GiArchiveResearch variant="top" style={{ textAlign: 'center', fontSize: '100px', width: '100%', padding: '6px' }} />
                             <Card.Body>

@@ -16,10 +16,10 @@ const Specialty = () => {
     { name: "Tirkashev Asliddin", img: firstPhoto, url: "/dataperson" },
   ];
   const matemath_2 = [
-    { name: "john", img: "....", url: "Phd" },
-    { name: "john", img: "....", url: "Phd" },
-    { name: "john", img: "....", url: "Phd" },
-    { name: "john", img: "....", url: "Phd" },
+    { name: "john", img: firstPhoto, url: "Phd" },
+    { name: "john", img: firstPhoto, url: "Phd" },
+    { name: "john", img: firstPhoto, url: "Phd" },
+    { name: "john", img: firstPhoto, url: "Phd" },
   ];
   const matemath_3 = [
     { name: "john", img: "....", url: "Phd" },
@@ -38,54 +38,64 @@ const Specialty = () => {
     <h1>Doktorantlar</h1>
     <h2>1-kurs</h2>
        <div className='row'>
+       
       
        {matemath_1.map(item => (
-           <Card key={item.id} style={{ width: '19rem', margin:'12px', minHeight: '400px' }}>
-           <Card.Img variant="top" src={item.img} style={{width: '100%', height: '75%',}} />
-           <Card.Body style={{margin: '0px'}}>
-             <Card.Title>{item.name}</Card.Title>
-             {/* <Card.Text>
-               Some quick example text to build on the card title and make up the
-               bulk of the card's content.
-             </Card.Text> */}
-             <Button variant="primary"><Link to={item.url}>Batafsil</Link></Button>
-           </Card.Body>
-         </Card>
+           <div className="card cart" key={item.id}  style={{ width: '19rem', margin:'12px', minHeight: '150px' }}>
+           <div className="row g-0">
+             <div className="col-sm-6">
+               <img src={item.img}  class="img-fluid rounded-start" alt="..."/>
+             </div>
+             <div className="col-sm-6">
+               <div className="card-body">
+                 <h5 className="card-title">{item.name}</h5>
+                 <p className="card-text">Doktorant</p>
+                <button className='btn btn-primary'><Link to={item.url}>Batafsil</Link></button>
+               </div>
+             </div>
+           </div>
+         </div>
         ))}
        </div>
        <h2>2-kurs</h2>
        <div className='row'>
       
-      {matemath_2.map(item => (
-          <Card key={item.id} style={{ width: '19rem', margin:'12px', minHeight: '400px' }}>
-          <Card.Img variant="top" src={item.img} style={{width: '100%', height: '75%',}} />
-          <Card.Body>
-            <Card.Title>{item.name}</Card.Title>
-            {/* <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text> */}
-            <Button variant="primary"><Link to={item.url}>Batafsil</Link></Button>
-          </Card.Body>
-        </Card>
-       ))}
+       {matemath_2.map(item => (
+           <div className="card" key={item.id}  style={{ width: '19rem', margin:'12px', minHeight: '150px' }}>
+           <div className="row g-0">
+             <div className="col-sm-6">
+               <img src={item.img} style={{width: '100%', height: '100%',margin:'5px'}}  class="img-fluid rounded-start" alt="..."/>
+             </div>
+             <div className="col-sm-6">
+               <div className="card-body">
+                 <h5 className="card-title">{item.name}</h5>
+                 <p className="card-text">Doktorant</p>
+                <button className='btn btn-primary'><Link to={item.url}>Batafsil</Link></button>
+               </div>
+             </div>
+           </div>
+         </div>
+        ))}
       </div>
       <h2>3-kurs</h2>
       <div className='row'>
       
       {matemath_3.map(item => (
-        <Card key={item.id} style={{ width: '19rem', margin:'12px', minHeight: '400px' }}>
-        <Card.Img variant="top" src={item.img} style={{width: '100%', height: '75%',}} />
-        <Card.Body>
-          <Card.Title>{item.name}</Card.Title>
-          {/* <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text> */}
-          <Button variant="primary"><Link to={item.url}>Batafsil</Link></Button>
-        </Card.Body>
-      </Card>
-       ))}
+           <div className="card" key={item.id}  style={{ width: '19rem', margin:'12px', minHeight: '150px' }}>
+           <div className="row g-0">
+             <div className="col-sm-6">
+               <img src={item.img} style={{width: '100%', height: '100%',margin:'5px'}}  class="img-fluid rounded-start" alt="..."/>
+             </div>
+             <div className="col-sm-6">
+               <div className="card-body">
+                 <h5 className="card-title">{item.name}</h5>
+                 <p className="card-text">Doktorant</p>
+                <button className='btn btn-primary'><Link to={item.url}>Batafsil</Link></button>
+               </div>
+             </div>
+           </div>
+         </div>
+        ))}
       </div>
     </div>
   </>
